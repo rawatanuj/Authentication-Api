@@ -14,11 +14,11 @@ spec:
     spec:
       containers:
       - name: Authenticationrepos
-        image: retail_banking_system_cr.azurecr.io/Authenticationrepos:latest
+        image: anujretailbankingcr.azurecr.io/Authenticationrepos:latest
         ports:
         - containerPort: 8080
       imagePullSecrets:
-      - name: dsconfigsn
+      - name: dsconfigsn2
 
 ---
 apiVersion: v1
